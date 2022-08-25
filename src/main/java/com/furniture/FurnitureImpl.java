@@ -18,6 +18,11 @@ public class FurnitureImpl {
         furnitureItem.setType("indor");
         furnitureItem.setPrice(2500.5f);
         float price = furnitureItem.getPrice();
+        String code = furnitureItem.getCode();
+        String colour = furnitureItem.getColour();
+        String type = furnitureItem.getType();
+        String usage = furnitureItem.getUsage();
+        String grade = furnitureItem.getGrade();
         System.out.println(" Amount After discount is : " + furnitureItem.calculateDiscount("12231423", "for me", "grade1", "outdoor", price));
 
 
