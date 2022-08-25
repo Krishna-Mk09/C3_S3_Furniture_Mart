@@ -10,6 +10,7 @@ package com.furniture;
 
 public class FurnitureImpl {
     public static void main(String[] args) {
-
+        FurnitureItem furnitureItem = new FurnitureItem();
+        furnitureItem.s
     }
 }

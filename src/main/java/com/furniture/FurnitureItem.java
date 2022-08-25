@@ -14,7 +14,7 @@ public class FurnitureItem {
     private String grade;
     private String colour;
     private String usage;
-    private double price;
+    private float price;
 
     static final int DISCOUNT = 5;
 
@@ -65,12 +65,14 @@ public class FurnitureItem {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(float price) {
         this.price = price;
     }
 
-    public float calculateDiscount() {
-        return 0;
-
+    public float calculateDiscount(String Code, String Type, String grade, String usage, float price) {
+        if (grade == "grade1" && usage == "outdoor") {
+            return this.price - this.price * DISCOUNT / 100;
+        }
+        return price;
     }
 }
