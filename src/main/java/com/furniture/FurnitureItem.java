@@ -9,4 +9,10 @@
 package com.furniture;
 
 public class FurnitureItem {
+    private String code;
+    private String type;
+    private String grade;
+    private String colour;
+    private String usage;
+
 }
