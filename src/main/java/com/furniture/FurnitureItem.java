@@ -16,6 +16,9 @@ public class FurnitureItem {
     private String usage;
     private double price;
 
+    public FurnitureItem() {
+    }
+
     public String getCode() {
         return code;
     }
