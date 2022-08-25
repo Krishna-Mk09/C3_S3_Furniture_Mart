@@ -9,4 +9,7 @@
 package com.furniture;
 
 public class FurnitureImpl {
+    public static void main(String[] args) {
+
+    }
 }
