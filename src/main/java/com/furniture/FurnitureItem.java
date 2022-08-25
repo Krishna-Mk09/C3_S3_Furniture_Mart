@@ -66,4 +66,9 @@ public class FurnitureItem {
     public void setPrice(double price) {
         this.price = price;
     }
+
+    public float calculateDiscount() {
+        return 0;
+
+    }
 }
