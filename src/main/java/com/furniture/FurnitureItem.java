@@ -14,5 +14,7 @@ public class FurnitureItem {
     private String grade;
     private String colour;
     private String usage;
+    private double price;
+
 
 }
